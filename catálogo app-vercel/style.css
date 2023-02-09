@@ -1,0 +1,38 @@
+.card-largura {
+    max-width: 18rem;
+ }
+ 
+ .imagem-carrossel1 {
+     object-fit: cover;
+     object-position: 90% 90% ;
+     height: 600px ;
+ 
+ }
+ .imagem-carrossel2 {
+     object-fit: cover;
+     object-position: 50% 50%;
+     height: 600px;
+     margin-bottom: auto;
+ 
+ } 
+ .fonte-titulo{
+ 
+     font-family: 'Ubuntu', sans-serif;
+ 
+ }
+ .cor-especial {
+     color:darkred;
+ }
+ 
+ .botão-cor-especial{
+     background-color: darkred;
+ }
+ .borda-cor-especial{
+     border-color: darkred;
+ }
+ 
+ .card-posição-imagem {
+     object-fit: cover;
+     height: 400px ;
+ }
+ 

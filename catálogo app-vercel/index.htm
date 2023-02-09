@@ -1,0 +1,325 @@
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Catálogo-Águia Diesel</title>
+        <!--Fontes Gooogle-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+        <!---BootstrapCss-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/src/css/style.css" />
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a class="navbar-brand p-0 text-right" href=".../image/logo-aguia.png"><img src="image/logo-aguia.png"
+                        alt="logo aguia" </a> <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <ul class="collapse navbar-collapse row justify-content-end" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li><a class="nav-item nav-link active" href="#"><span class="sr-only"></span></a></li>
+                            <li><a class="nav-item nav-link" href="#">Missão</a></li>
+                            <li> <a class="nav-item nav-link" href="#">Valores</a></li>
+                            <li><a class="nav-item nav-link" data-toggle="modal" data-target="#modal-contato"
+                                    href="#">Contato</a></li>
+                        </ul>
+                        </div>
+            </nav>
+        </header>
+
+        <!---Carroseul Fazer novas imagem Banner-->
+        <main>
+            <section id="carouselExampleIndicators" class="carousel slide" data-interval="3000" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/carrossel-img1.jpg" class="d-block w-100 imagem-carrossel1" alt="...">
+                        <div class="carousel-caption d-none d-md-block h-25">
+                            <h1 class="fonte-titulo display-4">Consulte nosso time!!!</h1>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="image/carrossel-img1.jpg" class="d-block  w-100 imagem-carrossel2" alt="...">
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </section>
+
+            <section id="titulo">
+
+                <h2 class="text-center fonte-titulo cor-especial pt-4">
+                    Tudo o que você precisa para o seu caminhão, você encontra aqui na Águia Diesel</h2>
+                <p class="text-center text-secondary pb-4">
+                    Somos um desmonte automobilístico especializado na comercialização de peças seminovas para caminhões
+                    e
+                    ônibus.
+                </p>
+            </section>
+
+            <!---Seção envolve todos produtos a base de troca Starup Analisar melhor forma de CRM frotas
+            Esse componets é nosso Big Mac receita deve sair desta interação Analisar SEO e a UI|UX-->
+
+
+            <section class="container-fluid bg-light" id="peças">
+                <div class="row justify-content-center">
+
+                    <article class="card borda-cor-especial card-largura  p-0  m-4 col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/Câmbio ZF Ecolite 6s 1010.jpeg" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">CÂMBIO ZF</h5>
+                            <p class="card-text">CONSULTE-NOS TEMOS MELHORES PREÇOS</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">SAIBA-MAIS</a>
+                        </div>
+                    </article>
+
+                    <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/motor mb 457.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">MOTOR MB 457 LA</h5>
+                            <p class="card-text">MOTOR MERCEDES BENZ LA</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">A BASE DE TROCA</a>
+                        </div>
+                    </article>
+
+                    <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem  " src="image/Câmbio Eaton Fs 6306.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CÂMBIO EATON </h5>
+                            <p class="card-text">UMA GRANDE VARIEDADES DE CÂMBIOSVOCÊ ENCONTRA AQUI!!</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">SAIBA-MAIS</a>
+                        </div>
+                    </article>
+
+                    <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/cubo-redutor.jpeg">
+                        <div class="card-body">
+                            <h5 class="card-title">CUBO REDUTOR </h5>
+                            <p class="card-text">CONSULTE NOSSA EQUIPE DE VENDAS </p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">SAIBA-MAIS</a>
+                        </div>
+                    </article>
+
+                    <article class="card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/Câmbio Eaton Es 11209 ford cargo.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Motor Ducato 2.8 Turbo Diesel</h5>
+                            <p class="card-text">MOTOR ORIGINAL DESTINADO AOS VEÍCULOS:Fiat Ducato 2.8</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">A BASE DE TROCA</a>
+                        </div>
+                    </article>
+
+
+
+
+                    <article class="card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/cambio zf ecomat.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CÂMBIO ZF ECOMAT</h5>
+                            <p class="card-text">CÂMBIO ECOMAT 5 HP MERCEDES</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">SAIBA-MAIS</a>
+                        </div>
+                    </article>
+
+                    <article class="card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/câmbio mb G85.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">MOTOR SPRINTER</h5>
+                            <p class="card-text">MOTOR SPRINTER OM 651 LA 2019</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">A BASE DE TROCA</a>
+                        </div>
+                    </article>
+
+                    <article class=" contanier card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/diferencial HL-4 relação 8x3.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">DIFERENCIAL MS 185 SIMPLES</h5>
+                            <p class="card-text">DIFERENCIAL MS I85 SIMPLES RELAÇÃO 10X41</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">SAIBA-MAIS</a>
+                        </div>
+                    </article>
+
+                    <article class=" contanier card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/Câmbio Eaton Fs 4205a.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CÂMBIO EATON FS 4205a</h5>
+                            <p class="card-text">CÂMBIO EATON FS 4205a</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">SAIBA-MAIS</a>
+                        </div>
+
+                    </article>
+                    <article class=" contanier card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/Motor Cummins Serie C.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">MOTOR CUMMINS SERIE C</h5>
+                            <p class="card-text">MOTOR CUMMINS MELHOR PREÇO</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">A BASE DE TROCA</a>
+                        </div>
+                    </article>
+
+                    </article>
+                    <article class=" contanier card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="/image/Motor Cummins ISB Euro 5 4 Cil.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">MOTOR CUMMINS ISB</h5>
+                            <p class="card-text">MOTOR CUMMINS ISB EURO 5 4 CIL</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">A BASE DE TROCA</a>
+                        </div>
+                    </article>
+
+                    </article>
+                    <article class=" contanier card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                        <img class="card-img-top card-posição-imagem " src="image/Motor Cummins ISL 360.jpeg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">MOTOR CUMMUNIS</h5>
+                            <p class="card-text">VOCÊ ENCONTRA AQUI MELHORES MOTORES REVISADOS E COM GARANTIA</p>
+                            <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">A BASE DE TROCA</a>
+                        </div>
+                    </article>
+
+                </article>
+                <article class=" contanier card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                    <img class="card-img-top card-posição-imagem " src="image/motor-cummins.jpeg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">MOTOR CUMMUNIS</h5>
+                        <p class="card-text">VOCÊ ENCONTRA AQUI MELHORES MOTORES REVISADOS E COM GARANTIA</p>
+                        <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">A BASE DE TROCA</a>
+                    </div>
+                </article>
+
+            </article>
+            <article class=" contanier card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+                <img class="card-img-top card-posição-imagem " src="image/Câmbio Zf s5 580 to.jpeg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">CÂMBIO ZF S5 580</h5>
+                    <p class="card-text">VOCÊ ENCONTRA AQUI MELHORES CÂMBIOS  REVISADOS E COM GARANTIA</p>
+                    <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">A BASE DE TROCA</a>
+                </div>
+            </article>
+        </article>
+
+        <article class=" contanier card borda-cor-especial card-largura p-0 m-4  col-12 col-md-3">
+            <img class="card-img-top card-posição-imagem " src="image/Câmbio G211-16.jpeg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">CÂMBIO G211-16</h5>
+                <p class="card-text">VOCÊ ENCONTRA AQUI MELHORES CÂMBIOS REVISADOS E COM GARANTIA</p>
+                <a href="https://aguiadieselpecas.com.br/" class="btn botão-cor-especial btn-primary">A BASE DE TROCA</a>
+            </div>
+        </article>
+
+
+                </div>
+            </section>
+        </main>
+
+
+        <!--Videos institucionais -->
+        <iframe class=" row justify-content-center p-3 w-3 col-lg-12" width="100%" height="400"
+            src="https://www.youtube.com/embed/n-e6Ug6Z5bU" title="Águia Diesel Peças - Apresentação" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <!--Rodapé-->
+        <footer class="bg-secondary p-3">
+            <p class="text-light m-0 text-center">contato: <a class="text-light"
+                    href="https://aguiadieselpecas.com.br/">from:Fábio Miranda</a></p>
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <dialog class="modal-dialog">
+                <div class="modal-content">
+
+                    <header class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Entre Contato</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </header>
+
+                    <main class="modal-body">
+
+                        <!---Formulário Contato suspenso na barra hamburguer-->
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Nome Completo</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Insira seu nome completo">
+                            </div>
+                            <div class="form-floating">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Endereço de email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Insira endereço email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Comentários</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                                        placeholder="Insira aqui seu comentário" rows="3"></textarea>
+                                </div>
+                        </form>
+                    </main>
+                </div>
+
+                <!--Botão fechar|enviar-->
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn botão-cor-especial">Enviar</button>
+                </footer>
+            </dialog>
+        </div>
+        </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN
+    " crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js
+    " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+        <script src=""></script>
+
+    </body>
+
+    </html>
